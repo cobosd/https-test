@@ -17,7 +17,6 @@ app.post('/ambientweather', (req, res) => {
 
   // For demonstration, let's log all received parameters:
   console.log('Received data:', data);
-git remote add origin https://github.com/cobosd/https-test.git
   // If you need to process or save this data, you can now iterate over it:
   for (let param in data) {
     console.log(`Parameter name: ${param}, Value: ${data[param]}`);
